@@ -1,4 +1,4 @@
-package Array;
+package Arrays;
 import java.util.*;
 public class UnionIntersection {
 	public static void main(String args[]) {

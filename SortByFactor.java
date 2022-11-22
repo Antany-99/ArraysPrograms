@@ -1,4 +1,4 @@
-package Array;
+package Arrays;
 
 public class SortByFactor {
 	public static void main(String[] args) {

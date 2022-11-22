@@ -1,27 +1,27 @@
-package Array;
+package Arrays;
 
 public class SquareArrayPattern {
 	public static void main(String[] args) {
-		int n = 5;
-		int a[][] = new int[n][n];
+		int number = 5;
+		int array[][] = new int[number][number];
 		int limit = 0;
-		int s = n;
-		int l = 0;
-		int r = n - 1;
-		while (limit < n) {
-			for (int i = l; i <=r; i++) {
-				for (int j = l; j <=r; j++) {
-					if (i == l || i == r || j == l || j == r) {
-						a[i][j] = n;	}
+		int length = number;
+		int start = 0;
+		int end = number - 1;
+		while (limit < number) {
+			for (int i = start; i <=end; i++) {
+				for (int j = start; j <=end; j++) {
+					if (i == start || i == end || j == start || j == end) {
+						array[i][j] = number;	}
 				}
 			}
-			l++;
-			n--;
-			r--;
+			start++;
+			number--;
+			end--;
 			limit++;}
-		for (int i = 0; i < s; i++) {
-			for (int j = 0; j < s; j++)
-				System.out.print(a[i][j]);
+		for (int i = 0; i < length; i++) {
+			for (int j = 0; j < length; j++)
+				System.out.print(array[i][j]);
 			System.out.println();}
 	}
 

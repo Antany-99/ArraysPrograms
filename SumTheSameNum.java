@@ -1,4 +1,4 @@
-package Array;
+package Arrays;
 
 public class SumTheSameNum {
 	public static void main(String args[]) {

@@ -1,4 +1,4 @@
-package Array;
+package Arrays;
 public class LargeSumContiguesArray {
 	    public static void main(String args[]) {
 	        int a[] = {1, 3, 8, -2, 6, -8, 5};

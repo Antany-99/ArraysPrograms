@@ -1,4 +1,4 @@
-package Array;
+package Arrays;
 
 public class AddingArrayElementsLikeInt {
 	public static void main(String[]args) {

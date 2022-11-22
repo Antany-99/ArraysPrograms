@@ -1,4 +1,4 @@
-package Array;
+package Arrays;
 public class SingleLoopArrayComp {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
